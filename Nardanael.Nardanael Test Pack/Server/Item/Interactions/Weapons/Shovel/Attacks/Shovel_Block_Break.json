@@ -4,9 +4,15 @@
     "Type": "BreakBlock",
     "Tool": "Shovel",
     "UseLatestTarget": true,
+    "AllowedBlockTypes": [
+      "Soil_Sand"
+    ],
     "Next": {
       "Type": "BreakBlock",
       "Tool": "Shovel",
+      "AllowedBlockTypes": [
+        "Soil_Sand"
+      ],
       "TargetOffset": {
         "X": 0,
         "Y": -1,
