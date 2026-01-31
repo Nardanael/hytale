@@ -3,7 +3,16 @@
   "Failed": {
     "Type": "BreakBlock",
     "Tool": "Shovel",
-    "UseLatestTarget": true
+    "UseLatestTarget": true,
+    "Next": {
+      "Type": "BreakBlock",
+      "Tool": "Shovel",
+      "TargetOffset": {
+        "X": 0,
+        "Y": -1,
+        "Z": 0
+      }
+    }
   },
   "Next": {
     "Type": "UseBlock",
