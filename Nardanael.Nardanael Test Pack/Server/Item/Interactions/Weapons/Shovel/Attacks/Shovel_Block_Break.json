@@ -7,7 +7,6 @@
     "Next": {
       "Type": "BreakBlock",
       "Tool": "Shovel",
-      "UseLatestTarget": true,
       "TargetOffset": {
         "X": 0,
         "Y": -1,
