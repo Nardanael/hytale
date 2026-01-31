@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Utility_Chest.name",
+    "Description": "server.items.Utility_Chest.description"
+  },
+  "Categories": [
+    "Items.Utility"
+  ],
+  "Set": "Utility",
+  "Icon": "Icons/ItemsGenerated/Utility_Chest.png",
+  "Model": "Items/Utility/Chest/Chest.blockymodel",
+  "Texture": "Items/Utility/Chest/Chest_Texture.png",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        "PlaceChestWithSand"
+      ],
+      "Cooldown": {
+        "Cooldown": 1
+      }
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.32,
+    "Translation": [
+      0,
+      0
+    ],
+    "Rotation": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Utility"
+    ]
+  },
+  "Quality": "Common"
+}
