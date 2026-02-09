@@ -1,0 +1,14 @@
+{
+  "Type": "UseBlock",
+  "Failed": {
+    "Type": "BreakBlock",
+    "Tool": "Shovel",
+    "UseLatestTarget": true
+  },
+  "Next": {
+    "Type": "UseBlock",
+    "Rules": {
+      "BlockedBy": []
+    }
+  }
+}
