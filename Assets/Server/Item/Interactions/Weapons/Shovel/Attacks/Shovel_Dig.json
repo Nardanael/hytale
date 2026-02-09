@@ -18,7 +18,7 @@
               "Direction": "ToLeft",
               "TestLineOfSight": true,
               "ExtendTop": 0.5,
-              "ExtendBottom": 0.5,
+              "ExtendBottom": 1.5,
               "StartDistance": 0.5,
               "EndDistance": 2.5,
               "Length": 30,
