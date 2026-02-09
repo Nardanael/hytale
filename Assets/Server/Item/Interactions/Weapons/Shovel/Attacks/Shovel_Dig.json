@@ -50,7 +50,7 @@
         "Interactions": [
           {
             "Type": "Selector",
-            "$Comment": "Second selector targeting block below - offset down by 1 block (ExtendTop: -0.5, ExtendBottom: 1.5 creates 2-block range starting 0.5 blocks below player center)",
+            "$Comment": "Targets block below - vertical offset (ExtendTop: -0.5, ExtendBottom: 1.5)",
             "RunTime": 0.1,
             "Selector": {
               "Id": "Horizontal",
