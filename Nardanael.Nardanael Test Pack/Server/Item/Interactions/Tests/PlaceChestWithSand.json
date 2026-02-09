@@ -1,7 +1,6 @@
 {
   "Type": "PlaceBlock",
-  "BlockTypeToPlace": "Utility_Chest",
-  "RemoveItemInHand": false,
+  "RemoveItemInHand": true,
   "RunTime": 0.5,
   "Next": {
     "Type": "PlaceBlock",
