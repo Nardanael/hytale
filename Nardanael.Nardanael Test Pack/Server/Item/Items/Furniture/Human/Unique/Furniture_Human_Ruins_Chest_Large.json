@@ -1,0 +1,10 @@
+{
+  "Parent": "Furniture_Human_Ruins_Chest_Large",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        "PlaceChestWithSand"
+      ]
+    }
+  }
+}
