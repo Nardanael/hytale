@@ -22,18 +22,9 @@
     }
   },
   "Failed": {
-    "$Comment": "When not aiming down, use normal behavior",
-    "Type": "UseBlock",
-    "Failed": {
-      "Type": "BreakBlock",
-      "Tool": "Shovel",
-      "UseLatestTarget": true
-    },
-    "Next": {
-      "Type": "UseBlock",
-      "Rules": {
-        "BlockedBy": []
-      }
-    }
+    "$Comment": "When not aiming down, break single block normally",
+    "Type": "BreakBlock",
+    "Tool": "Shovel",
+    "UseLatestTarget": true
   }
 }
