@@ -1,0 +1,17 @@
+{
+  "Type": "PlaceBlock",
+  "BlockTypeToPlace": "Furniture_Ancient_Chest_Small",
+  "RemoveItemInHand": true,
+  "RunTime": 0.5,
+  "Next": {
+    "Type": "PlaceBlock",
+    "BlockTypeToPlace": "Soil_Sand",
+    "RemoveItemInHand": false,
+    "RunTime": 0.5,
+    "TargetOffset": {
+      "X": 0,
+      "Y": 1,
+      "Z": 0
+    }
+  }
+}
