@@ -1,6 +1,13 @@
 {
-  "Type": "UseBlock",
-  "Failed": {
+  "Type": "BlockCondition",
+  "$Comment": "Check if player is aiming downward (hitting top face of block)",
+  "Matchers": [
+    {
+      "Face": "Up"
+    }
+  ],
+  "Next": {
+    "$Comment": "When aiming down, always dig 2 blocks",
     "Type": "BreakBlock",
     "Tool": "Shovel",
     "UseLatestTarget": true,
@@ -14,10 +21,10 @@
       }
     }
   },
-  "Next": {
-    "Type": "UseBlock",
-    "Rules": {
-      "BlockedBy": []
-    }
+  "Failed": {
+    "$Comment": "When not aiming down, break single block normally",
+    "Type": "BreakBlock",
+    "Tool": "Shovel",
+    "UseLatestTarget": true
   }
 }
