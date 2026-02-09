@@ -1,6 +1,0 @@
-{
-  "Type": "PlaceBlock",
-  "BlockTypeToPlace": "Soil_Sand",
-  "RemoveItemInHand": false,
-  "RunTime": 0.5
-}

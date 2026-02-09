@@ -87,12 +87,8 @@
   "Interactions": {
     "Primary": {
       "Interactions": [
-        "Shovel_Attack_Sand",
-        "PlaceBlockSand"
-      ],
-      "Cooldown": {
-        "Cooldown": 2
-      }
+        "Shovel_Attack"
+      ]
     }
   },
   "InteractionVars": {

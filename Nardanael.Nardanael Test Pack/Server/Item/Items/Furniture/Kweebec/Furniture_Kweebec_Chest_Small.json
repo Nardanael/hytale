@@ -1,0 +1,10 @@
+{
+  "Parent": "Furniture_Kweebec_Chest_Small",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        "PlaceChestWithSand"
+      ]
+    }
+  }
+}
